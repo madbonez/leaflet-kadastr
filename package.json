@@ -1,0 +1,15 @@
+{
+  "name": "leflet-reestr",
+  "version": "1.0.0",
+  "description": "demo project",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "node ./proxy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  }
+}

@@ -1,0 +1,28 @@
+html,
+body {
+    height: 200px;
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: #fff;
+}
+
+path {
+    stroke-linecap: square
+}
+
+.leaflet-tile-pane .leaflet-layer:first-child {
+    opacity: 0.4;
+}
+
+.leaflet-container {
+    background-color: #fff !important;
+}
+
+.map {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
